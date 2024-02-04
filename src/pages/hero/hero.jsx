@@ -6,7 +6,7 @@ export function Hero(){
                     <ul>
                         <li>contact</li>
                         <li>portfolio</li>
-                        <li>article</li>
+                        <li>article</li>   
                         <li>about</li>
                     </ul>
                 </div>
