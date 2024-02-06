@@ -1,34 +1,36 @@
+import './footer.css'
+
 export function Footer(){
     return (
-        <section>
-            <div>
-                <h6>ELLIOT BENSON</h6>
-            </div>
-            <div>
-                <div>
-                    <h2>lets work together </h2>
+        <section id='footer'>
+         
+           <h6 id='footerName'>ELLIOT BENSON</h6>
+            
+            <div id="footerBot">
+                <div className='footerItems'>
+                    <h2 className='footerHeads'>lets work together </h2>
                 </div>
 
-                <div>
-                    <h2>sitemap </h2>
+                <div className='footerItems'>
+                    <h2 className='footerHeads'>sitemap </h2>
                     <ul>
-                        <li>home</li>
-                        <li>about</li>
-                        <li>article</li>
-                        <li>portfolio</li>
-                        <li>testimonials</li>
-                        <li>conact</li>
-                        <li>footer</li>
+                        <li><a>home</a></li>
+                        <li><a>about</a></li>
+                        <li><a>article</a></li>
+                        <li><a>portfolio</a></li>
+                        <li><a>testimonials</a></li>
+                        <li><a>contact</a></li>
+                        <li><a>footer</a></li>
                     </ul>
                 </div>
 
-                <div>
-                    <h2>socials</h2>
+                <div className='footerItems'>
+                    <h2 className='footerHeads'>socials</h2>
                     <ul>
-                    <li>facebook</li>
-                    <li>twitter</li>
-                    <li>instagram</li>
-                    <li>dribble</li>
+                    <li><a>facebook</a></li>
+                    <li><a>twitter</a></li>
+                    <li><a>instagram</a></li>
+                    <li><a>dribble</a></li>
                     </ul>
                 </div>
             </div>

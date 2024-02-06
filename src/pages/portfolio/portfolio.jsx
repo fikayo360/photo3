@@ -39,43 +39,43 @@ export function Portfolio(){
             <h2>wildlife</h2>
             <div className='imgCont'>
             <div className='images'>
-                    <img/>
+                    <img src='https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?cs=srgb&dl=pexels-pixabay-45853.jpg&fm=jpg'/>
                 </div>
                 <div className='images'>
-                    <img/>
+                    <img src='https://www.openaccessgovernment.org/wp-content/uploads/2019/04/dreamstime_xxl_110648840.jpg'/>
                 </div>
                 <div className='images'>
-                    <img/>
+                    <img src='https://static.toiimg.com/thumb/msid-89967601,width-748,height-499,resizemode=4,imgsize-45994/.jpg'/>
                 </div>
             </div>
             </div>
 
             <div className='portfolioCont'>
-            <h2>Model shoot </h2>
+            <h2>landscapes </h2>
             <div className='imgCont'>
             <div className='images'>
-                    <img/>
+                    <img src='https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/blogs/18725/images/mM87l2ZsQRSawMLLRlFF_FallLandscape7-.jpg'/>
                 </div>
                 <div className='images'>
-                    <img/>
+                    <img src='https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg'/>
                 </div>
                 <div className='images'>
-                    <img/>
+                    <img src='https://cff2.earth.com/uploads/2022/11/08110007/Mountain-landscapes2-scaled.jpg'/>
                 </div>
             </div>
             </div>
 
             <div className='portfolioCont'>
-            <h2>Landscapes</h2>
+            <h2>modelling</h2>
             <div className='imgCont'>
             <div className='images'>
-                    <img/>
+                    <img src='https://hips.hearstapps.com/hmg-prod/images/naomi-campbell-walks-the-runway-during-the-kenneth-ize-show-news-photo-1594416814.jpg'/>
                 </div>
                 <div className='images'>
-                    <img/>
+                    <img src='https://i.pinimg.com/736x/1c/8c/21/1c8c2109e066c7c8c3227444bc463112.jpg'/>
                 </div>
                 <div className='images'>
-                    <img/>
+                    <img src='https://mediaslide-europe.storage.googleapis.com/immmodels/pictures/1937/7631/profile-1697551002-8f65e75bb7b88061526d0aaa22efa765.jpg'/>
                 </div>
             </div>
             </div>

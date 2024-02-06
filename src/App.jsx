@@ -8,8 +8,18 @@ import { Portfolio } from './pages/portfolio/portfolio'
 import { Testimonials } from './pages/testimonials/testimonials'
 import { Contact } from './pages/contact/contact'
 import { Footer } from './pages/footer/footer'
+import { useEffect } from 'react'
 
 function App() {
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const viewport = document.querySelector('meta[name=viewport]');
+      if (viewport) {
+        viewport.setAttribute('content', viewport.content + `, height=${window.innerHeight}`);
+      }
+    }
+  }, []);
 
   return (
     <div>
