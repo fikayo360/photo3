@@ -19,6 +19,8 @@ export function Hero(){
                         <div className='socialIcon'><img src='./instagram.png'/></div>
                         <div className='socialIcon'><img src='./twitter.png'/></div>
                     </div>
+
+                    <img id='burger' src='./burger.png' />
                     </div>
             </nav>
 
