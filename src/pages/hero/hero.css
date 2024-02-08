@@ -127,6 +127,57 @@
     height: 25px;
 }
 
+#navMobile{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #navMobile{
+        position: fixed;
+        top: 0;
+        overflow: hidden;
+        width: 100%;
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        z-index: 3;
+        flex-direction: column;
+        background-color: #2F1847;
+        color: #ffffff;
+        padding-top: 1rem;
+    }
+
+    #navMobile header{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20%;
+    }
+
+    #navMobile header h1{
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    #navMobile header img{
+       width: 20px;
+       height: 20px;
+    }
+
+    #navMobile ul{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #navMobile ul li a{
+       font-size: 1.4rem;
+       color: #ffffff;
+    }
+}
+
 @media (min-width: 250px) and (max-width: 360px){
     #hero{
         height: 750px;
@@ -377,13 +428,12 @@
    }
    
    #heroOther h5{
-      font-size: 6rem;
-      line-height: 6.5rem;
+      font-size: 3.5rem;
    }
 
 #heroOtherBottom p{
-    font-size: 0.8rem;
-    line-height:20px;
+    font-size: 0.9rem;
+    line-height:25px;
     width: 50%;
     text-align: left;
 }
@@ -407,13 +457,15 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1280px){
-    
+    #hero{
+        height: 800px;
+    }
    #heroOther{
-    bottom:25%;
+    bottom:35%;
     gap: 3.7rem;
 }
     #heroOther h5{
-        font-size: 6rem;
+        font-size: 3.8rem;
         line-height:6rem;
      }
 
@@ -442,12 +494,12 @@
 @media (min-width: 1281px) and (max-width: 1440px){
     
     #heroOther{
-     bottom:25%;
+     bottom:30%;
      gap: 5rem;
     }
+
      #heroOther h5{
-         font-size: 8rem;
-         line-height: 8rem;
+         font-size: 5rem;
       }
  
       #heroOtherBottom p{
@@ -472,10 +524,10 @@
      }
  }
 
- @media (min-width: 1441px) and (max-width: 1753px){
+ @media (min-width: 1441px) and (max-width: 1822px){
     
     #heroOther{
-     bottom:25%;
+     bottom:29%;
      gap: 5rem;
     }
 
@@ -505,63 +557,3 @@
          height: 18px;
      }
  }
-/* @media (max-width: 767px){
-    #navWrap ul,#socialIcons{
-        display: none;
-    }
-
-    #burger{
-        display: block;
-    }
-
-    #heroOther{
-        bottom:25%;
-        width: 100%;
-        gap: 2rem;
-        padding: 50px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #heroOther h5{
-       font-size: 5rem;
-       line-height: 7rem;
-    }
-    
-    #heroOtherBottom p{
-        font-size: 1rem;
-        line-height:20px;
-        width: 45%;
-    }
-    
-    #heroBtn{
-        gap:1rem;
-        width: 50%;
-        border-radius: 40px;
-        padding: 10px;
-    }
-
-    #heroBtn span{
-        font-size: 1rem;
-    }
-    
-    #heroBtn img{
-        width: 17px;
-        height: 17px;
-    }
-
-    #heroOtherBottom{
-        justify-content:center;
-        align-items: center;
-        width: 90%;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    #heroOtherBottom p{
-        font-size: 1rem;
-        line-height:30px;
-        width: 90%;
-        text-align: center;
-    }
-} */

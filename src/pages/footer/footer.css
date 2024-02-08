@@ -57,3 +57,121 @@
     font-size: 1.3rem;
     color: rgb(194, 10, 194);
 }
+
+@media(min-width:250px) and (max-width: 480px){
+    #footer{
+        min-height: 50vh;
+        padding-top: 2rem;
+    }
+    #footerName{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    #footerBot{
+        width: 100%;
+        min-height: 500px;
+        bottom: 0rem;
+    }
+    .footerHeads{
+        font-size: 1rem;
+    }
+    
+    .footerItems{
+        gap: 1.4rem;
+        width: 30%;
+        min-height: 200px;
+    }
+    
+    .footerItems ul li a{
+        font-size: 0.8rem;
+        color:#ffffff;
+        text-align: left;
+        cursor: pointer;
+    }
+}
+
+@media(min-width:481px) and (max-width: 768px){
+    #footer{
+        min-height: 60vh;
+        padding-top: 2rem;
+    }
+    #footerName{
+        width: 90%;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    #footerBot{
+        width: 100%;
+        min-height: 580px;
+        bottom: 0;
+    }
+    .footerHeads{
+        font-size: 1.2rem;
+    }
+    
+    .footerItems{
+        min-height: 230px;
+    }
+
+    .footerItems ul{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    .footerItems ul li a{
+        font-size: 1rem;
+        color:#ffffff;
+        text-align: left;
+        cursor: pointer;
+    }
+
+}
+
+@media(min-width:769px) and (max-width: 1024px){
+    #footer{
+        min-height: 68vh;
+    }
+
+    #footerName{
+        width: 90%;
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(min-width:1025px) and (max-width: 1280px){
+    #footer{
+        min-height: 68vh;
+    }
+
+    #footerName{
+        width: 90%;
+        font-size: 6rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(min-width:1281px) and (max-width: 1536px){
+    #footer{
+        min-height: 70vh;
+    }
+
+    #footerName{
+        width: 90%;
+        font-size: 8rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(min-width:1537px) and (max-width: 1734px){
+    #footer{
+        min-height: 75vh;
+    }
+
+    #footerName{
+        width: 90%;
+        font-size: 10rem;
+        margin-bottom: 4rem;
+    }
+}

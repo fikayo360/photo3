@@ -1,15 +1,37 @@
 import './hero.css'
+import { useState } from 'react'
 
 export function Hero(){
+    const [navActive,setNavActive] = useState(false)
+  
+    const toggleMobileNav = () => {
+       setNavActive((prev) => !prev)
+    }
+
     return (
         <section id="hero">
+           { navActive? (<div id='navMobile' onClick={toggleMobileNav}>
+                <header>
+                    <h1>Sydney</h1>
+                    <img src='./close.png'/>
+                </header>
+                <ul id='navMobileList'>
+                            <li><a href='#contact'>contact</a></li>
+                            <li><a href='#portfolio'>portfolio</a></li>
+                            <li><a href='#testimonials'>testimonials</a></li>   
+                            <li><a href='#about'>about</a></li>
+                            <li><a href='#footer'>footer</a></li>
+                </ul>
+            </div>) :null }
+
             <nav id='navbar'>
                     <div id='navWrap'>
                         <ul id='navLeft'>
-                            <li><a>contact</a></li>
-                            <li><a>portfolio</a></li>
-                            <li><a>article</a></li>   
-                            <li><a>about</a></li>
+                            <li><a href='#contact'>contact</a></li>
+                            <li><a href='#portfolio'>portfolio</a></li>
+                            <li><a href='#testimonials'>testimonials</a></li>   
+                            <li><a href='#about'>about</a></li>
+                            <li><a href='#footer'>footer</a></li>
                         </ul>
 
                     <h1 id='navCenter'> Sydney </h1>
@@ -20,7 +42,7 @@ export function Hero(){
                         <div className='socialIcon'><img src='./twitter.png'/></div>
                     </div>
 
-                    <img id='burger' src='./burger.png' />
+                    <img id='burger' src='./burger.png' onClick={toggleMobileNav}/>
                     </div>
             </nav>
 
