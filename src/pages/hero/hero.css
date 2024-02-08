@@ -10,7 +10,6 @@
  linear-gradient(245.93deg, rgba(209, 21, 111, 0.16) 0%, rgba(209, 25, 80, 0) 36.63%), linear-gradient(147.6deg, rgba(58, 19, 255, 0) 29.79%,
   rgba(98, 19, 255, 0.01) 85.72%), #13111C;
   color: #ffffff;
-  /* clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 94%); */
 }
 
 #navbar{
@@ -435,7 +434,7 @@
     font-size: 0.9rem;
     line-height:25px;
     width: 50%;
-    text-align: left;
+    text-align: left;   
 }
 
 #heroBtn{
@@ -452,6 +451,17 @@
 #heroBtn img{
     width: 17px;
     height: 17px;
+}
+#navWrap ul{
+    gap:0.6rem
+}
+
+#navWrap ul li a{
+    font-size: 0.8rem;
+}
+
+#navCenter{
+    font-size: 2rem;
 }
 
 }
