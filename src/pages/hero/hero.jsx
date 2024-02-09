@@ -27,7 +27,7 @@ export function Hero(){
                             <li className='nmItems'><a href='#about'>about</a></li>
                             <li className='nmItems'><a href='#footer'>footer</a></li>
                 </ul>
-            </div>) :null }
+            </div>) :null } 
 
             <nav id='navbar'>
                     <div id='navWrap'>
