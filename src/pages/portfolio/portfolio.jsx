@@ -1,5 +1,30 @@
 import './portfolio.css'
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react"; 
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect } from 'react';
+
 export function Portfolio(){
+    const isMobile = window.innerWidth <= 1024;
+    gsap.registerPlugin(ScrollTrigger);
+
+       if(isMobile){
+        useGSAP(() => {
+            gsap.to(".images", { y:20,ease: "power1.in",delay:0.1,stagger:0.2,scrollTrigger: {
+                trigger: "#portfolio",
+                scrub: 1,
+              }});
+          })
+       }else{
+        useGSAP(() => {
+            gsap.to(".images", { y:50,ease: "power1.in",delay:0.1,stagger:0.2,scrollTrigger: {
+                trigger: "#portfolio",
+                scrub: 1,
+              }});
+          })
+       }
+
+    
     return (
         <section id="portfolio">
             <h2>Selected projects</h2>

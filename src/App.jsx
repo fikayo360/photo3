@@ -9,6 +9,7 @@ import { Testimonials } from './pages/testimonials/testimonials'
 import { Contact } from './pages/contact/contact'
 import { Footer } from './pages/footer/footer'
 import { useEffect } from 'react'
+import 'animate.css';
 
 function App() {
 

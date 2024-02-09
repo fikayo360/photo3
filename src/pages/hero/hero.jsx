@@ -1,26 +1,31 @@
 import './hero.css'
 import { useState } from 'react'
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react"; 
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { useEffect,useRef } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 export function Hero(){
     const [navActive,setNavActive] = useState(false)
-  
+    const [ref, inView] = useInView();
     const toggleMobileNav = () => {
        setNavActive((prev) => !prev)
     }
 
     return (
         <section id="hero">
-           { navActive? (<div id='navMobile' onClick={toggleMobileNav}>
+           { navActive? (<div id='navMobile' onClick={toggleMobileNav} ref={ref} className={`${inView?'animate__animated animate__fadeInDown animate__slow':''}`}>
                 <header>
                     <h1>Sydney</h1>
                     <img src='./close.png'/>
                 </header>
                 <ul id='navMobileList'>
-                            <li><a href='#contact'>contact</a></li>
-                            <li><a href='#portfolio'>portfolio</a></li>
-                            <li><a href='#testimonials'>testimonials</a></li>   
-                            <li><a href='#about'>about</a></li>
-                            <li><a href='#footer'>footer</a></li>
+                            <li className='nmItems'><a href='#contact' >contact</a></li>
+                            <li className='nmItems'><a href='#portfolio' >portfolio</a></li>
+                            <li className='nmItems'><a href='#testimonials'>testimonials</a></li>   
+                            <li className='nmItems'><a href='#about'>about</a></li>
+                            <li className='nmItems'><a href='#footer'>footer</a></li>
                 </ul>
             </div>) :null }
 
@@ -47,7 +52,7 @@ export function Hero(){
             </nav>
 
             <div id='heroOther'>
-                <h5>sydney cooper photography </h5>
+                <h5 id='heroTxt' ref={ref} className={`${inView?'animate__animated animate__rubberBand animate__slow':''}`}>sydney cooper photography </h5>
                 <div id='heroOtherBottom'>
                 <p>i am based in newyork and i specialize in landscape, events, industrial, and wildlife photography  iyeieyieyb rheyirbruybyu hrbhiywnrwiybn </p>
                 <div id='heroBtn'><span>get in touch</span><img src='./right.png'/></div>

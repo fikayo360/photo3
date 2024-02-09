@@ -1,10 +1,12 @@
 import './footer.css'
+import { useInView } from 'react-intersection-observer';
 
 export function Footer(){
+    const [ref, inView] = useInView();
     return (
-        <section id='footer'>
+        <section id='footer' >
          
-           <h6 id='footerName'>ELLIOT BENSON</h6>
+           <h6 id='footerName' ref={ref} className={`${inView?'animate__animated animate__fadeInDown animate__slow':''}`}>ELLIOT BENSON</h6>
             
             <div id="footerBot">
                 <div className='footerItems'>
