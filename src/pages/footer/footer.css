@@ -1,15 +1,17 @@
 #footer{
     width: 100vw;
-    min-height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
-    padding-top: 4rem;
     background: linear-gradient(327.21deg, rgba(33, 0, 75, 0.24) 3.65%, rgba(60, 0, 136, 0) 40.32%),
     linear-gradient(245.93deg, rgba(209, 21, 111, 0.16) 0%, rgba(209, 25, 80, 0) 36.63%), linear-gradient(147.6deg, rgba(58, 19, 255, 0) 29.79%,
      rgba(98, 19, 255, 0.01) 85.72%), #13111C;
      color: #ffffff;
      align-items:center ;
-     position: relative;
+     justify-content: center;
+     gap: 4rem;
+     padding-bottom: 2rem;
+     padding-top: 1rem;
 }
 
 #footerName{
@@ -23,13 +25,11 @@
 #footerBot{
     display: flex;
     width: 80%;
-    min-height: 500px;
+    height: auto;
     justify-content:center;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    bottom: 2rem;
 }
 
 .footerHeads{
@@ -42,7 +42,6 @@
     flex-direction: column;
     gap: 1.3rem;
     width: 30%;
-    min-height: 250px;
     justify-content: flex-start;
 }
 
@@ -59,19 +58,16 @@
 }
 
 @media(min-width:250px) and (max-width: 480px){
-    #footer{
-        min-height: 50vh;
-        padding-top: 2rem;
-    }
+   
     #footerName{
         width: 90%;
         font-size: 1.5rem;
     }
+
     #footerBot{
         width: 100%;
-        min-height: 500px;
-        bottom: 0rem;
     }
+
     .footerHeads{
         font-size: 1rem;
     }
@@ -92,7 +88,6 @@
 
 @media(min-width:481px) and (max-width: 768px){
     #footer{
-        min-height: 60vh;
         padding-top: 2rem;
     }
     #footerName{
@@ -102,7 +97,6 @@
     }
     #footerBot{
         width: 100%;
-        min-height: 580px;
         bottom: 0;
     }
     .footerHeads{
@@ -129,9 +123,6 @@
 }
 
 @media(min-width:769px) and (max-width: 1024px){
-    #footer{
-        min-height: 68vh;
-    }
 
     #footerName{
         width: 90%;
@@ -141,9 +132,7 @@
 }
 
 @media(min-width:1025px) and (max-width: 1280px){
-    #footer{
-        min-height: 68vh;
-    }
+   
 
     #footerName{
         width: 90%;
@@ -153,9 +142,7 @@
 }
 
 @media(min-width:1281px) and (max-width: 1536px){
-    #footer{
-        min-height: 70vh;
-    }
+    
 
     #footerName{
         width: 90%;
@@ -165,9 +152,7 @@
 }
 
 @media(min-width:1537px) and (max-width: 1734px){
-    #footer{
-        min-height: 75vh;
-    }
+    
 
     #footerName{
         width: 90%;
