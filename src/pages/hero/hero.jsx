@@ -25,7 +25,7 @@ export function Hero(){
                             <li className='nmItems'><a href='#portfolio' >portfolio</a></li>
                             <li className='nmItems'><a href='#testimonials'>testimonials</a></li>   
                             <li className='nmItems'><a href='#about'>about</a></li>
-                            <li className='nmItems'><a href='#footer'>footer</a></li>
+                            <li className='nmItems'><a href='#footer'>footer</a></li> 
                 </ul>
             </div>) :null } 
 
