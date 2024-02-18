@@ -15,7 +15,7 @@ export function Hero(){
 
     return (
         <section id="hero">
-           { navActive? (<div id='navMobile' onClick={toggleMobileNav} ref={ref} className={`${inView?'animate__animated animate__fadeInDown animate__slow':''}`}>
+           { navActive? (<div id='navMobile' onClick={toggleMobileNav} ref={ref} className={`${inView?'animate__animated animate__fadeInDown animate__slow animate__delay-4s':''}`}>
                 <header>
                     <h1>Sydney</h1>
                     <img src='./close.png'/>

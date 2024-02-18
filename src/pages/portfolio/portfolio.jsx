@@ -10,16 +10,16 @@ export function Portfolio(){
 
        if(isMobile){
         useGSAP(() => {
-            gsap.to(".images", { y:20,ease: "power1.in",delay:0.1,stagger:0.2,scrollTrigger: {
+            gsap.to(".images", { y:15,ease: "power1.in",stagger:0.1,scrollTrigger: {
                 trigger: "#portfolio",
-                scrub: 1,
+                
               }});
           })
        }else{
         useGSAP(() => {
-            gsap.to(".images", { y:50,ease: "power1.in",delay:0.1,stagger:0.2,scrollTrigger: {
+            gsap.to(".images", { y:40,ease: "power1.in",delay:0.1,stagger:0.2,scrollTrigger: {
                 trigger: "#portfolio",
-                scrub: 1,
+                
               }});
           })
        }
