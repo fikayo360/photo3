@@ -10,6 +10,7 @@ import { Contact } from './pages/contact/contact'
 import { Footer } from './pages/footer/footer'
 import { useEffect } from 'react'
 import 'animate.css';
+import Extra1 from './pages/extra1/extra1'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Hero />
       <About />
       <Portfolio />
+      <Extra1 />
       <Testimonials />
       <Contact />  
       <Footer />

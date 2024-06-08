@@ -1,9 +1,5 @@
 import './hero.css'
 import { useState } from 'react'
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react"; 
-import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { useEffect,useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 export function Hero(){
@@ -15,7 +11,7 @@ export function Hero(){
 
     return (
         <section id="hero">
-           { navActive? (<div id='navMobile' onClick={toggleMobileNav} ref={ref} className={`${inView?'animate__animated animate__fadeInDown animate__slow animate__delay-4s':''}`}>
+           { navActive? (<div id='navMobile' onClick={toggleMobileNav} ref={ref} className={`${inView?'animate__animated animate__fadeInDown':''}`}>
                 <header>
                     <h1>Sydney</h1>
                     <img src='./close.png'/>
@@ -39,7 +35,7 @@ export function Hero(){
                             <li><a href='#footer'>footer</a></li>
                         </ul>
 
-                    <h1 id='navCenter'> Sydney </h1>
+                    <h1 id='navCenter'> Sydney james sterling </h1>
 
                     <div id='socialIcons'>
                         <div className='socialIcon'><img src='./facebook.png' /></div>
@@ -52,11 +48,10 @@ export function Hero(){
             </nav>
 
             <div id='heroOther'>
-                <h5 id='heroTxt' ref={ref} className={`${inView?'animate__animated animate__rubberBand animate__slow':''}`}>sydney cooper photography </h5>
-                <div id='heroOtherBottom'>
-                <p>i am based in newyork and i specialize in landscape, events, industrial, and wildlife photography  iyeieyieyb rheyirbruybyu hrbhiywnrwiybn </p>
+                <p>hi there, my name is <span id='txtG'>sydney james sterlin.</span><span className='hIc'><img src='profile.png' /></span> i am a photographer based in lagos state nigeria...
+                </p>
                 <div id='heroBtn'><span>get in touch</span><img src='./right.png'/></div>
-                </div>
+                
             </div>
         </section>
     )

@@ -27,8 +27,9 @@ export function Portfolio(){
     
     return (
         <section id="portfolio">
-            <h2>Selected projects</h2>
            
+            <div id='pWrap'>
+            <h2 id='ph2'>Selected projects</h2>
             <div id='' className='portfolioCont'>
                 <h2>portrait</h2>
                 <div className='imgCont'>
@@ -43,19 +44,27 @@ export function Portfolio(){
                 </div>
                 </div>
             </div>
-            
 
             <div className='portfolioCont'>
             <h2>weddings</h2>
             <div className='imgCont'>
             <div className='images'>
-                    <img src='https://assets.vogue.in/photos/6360ee4b74016d3adc45f105/1:1/w_4534,h_4534,c_limit/JR.WP-244.jpg'/>
+                    <img src='https://www.bellanaijaweddings.com/wp-content/uploads/2022/08/Mercy-Blessed-White-Wedding-BellaNaija-Weddings-12-scaled.jpg'/>
                 </div>
                 <div className='images'>
                     <img src='https://www.marthastewart.com/thmb/WeKJPpyaFSFTwDk7nFb4zSp4DLs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dmeca-anthony-wedding-couple-0422-ccc599a983e74a94acae2a2e4d8cef58.jpg'/>
                 </div>
                 <div className='images'>
                     <img src='https://www.brides.com/thmb/wH0DUYB1Y7WlvfD5B_dZww-Jsds=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wedding-planning-ultimate-guide-facebook-Janet-Lin-Photography-80bcc720ca3b4129b68bf38826c9fdf8.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://www.bellanaijaweddings.com/wp-content/uploads/2023/10/Stylewright-Official-Civil-Wedding-Inspo-1-.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://www.bellanaijaweddings.com/wp-content/uploads/2021/12/LooksbyTos-BellaNaija-Weddings-3-1080x1350.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://www.bellanaijaweddings.com/wp-content/uploads/2022/04/August-55-Civil-Wedding-Look8438602_2079141442264184_5959094649193075333_n.jpg'/>
                 </div>
             </div>
             </div>
@@ -104,6 +113,8 @@ export function Portfolio(){
                 </div>
             </div>
             </div>
+            </div>
+            
         </section>
     )
 }

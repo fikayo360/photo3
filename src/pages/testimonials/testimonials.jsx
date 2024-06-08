@@ -5,7 +5,7 @@ export function Testimonials(){
         <section id='testimonials'>
             <h2 id='head1'>Our happy clients </h2>
             <div id="tCont">
-            <div className='testimonial'>
+            <div className='testimonial bg1'>
             
                 <div className='testiUp'>
                     <img src='https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-man-wearing-glasses-is-wearing-colorful-background-image_2905240.jpg' />
@@ -34,7 +34,7 @@ export function Testimonials(){
                     </p>
             </div>
 
-            <div className='testimonial'>
+            <div className='testimonial bg3'>
             
             <div className='testiUp'>
                 <img src='https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-man-wearing-glasses-is-wearing-colorful-background-image_2905240.jpg' />
@@ -57,7 +57,7 @@ export function Testimonials(){
                     </p>
         </div>
 
-        <div className='testimonial'>
+        <div className='testimonial bg1'>
             
             <div className='testiUp'>
                 <img src='https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-man-wearing-glasses-is-wearing-colorful-background-image_2905240.jpg' />
@@ -74,7 +74,7 @@ export function Testimonials(){
                 </p>
         </div>
 
-        <div className='testimonial'>
+        <div className='testimonial bg2'>
             
             <div className='testiUp'>
                 <img src='https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-man-wearing-glasses-is-wearing-colorful-background-image_2905240.jpg' />
@@ -115,7 +115,7 @@ export function Testimonials(){
                     </p>
         </div>
 
-        <div className='testimonial'>
+        <div className='testimonial bg3'>
             
             <div className='testiUp'>
                 <img src='https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-man-wearing-glasses-is-wearing-colorful-background-image_2905240.jpg' />
@@ -144,7 +144,7 @@ export function Testimonials(){
                     </p>
         </div>
 
-           <div className='testimonial'>
+           <div className='testimonial bg2'>
             
                 <div className='testiUp'>
                     <img src='https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-man-wearing-glasses-is-wearing-colorful-background-image_2905240.jpg' />

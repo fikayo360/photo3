@@ -31,41 +31,50 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 25px;
+    align-items: flex-start;
+    gap:1rem;
 }
 
 .testimonial{
-    width: 300px;
-    border: 0.1px solid rgb(176, 137, 207);
+    width:45%;
     color: #ffffff;
-    min-height: 180px;
+    min-height: 170px;
     display: flex;
     flex-direction: column;
     gap:10px;
-    padding:20px;
-    border-radius: 4px;
+    padding:10px;
+    border-radius: 10px;
     background-color: transparent;
 }
 
 .testimonial .testiUp{
     display: flex;
-    gap: 15px;
+    gap: 4px;
     align-items: center;
 }
 
 .testimonial .testiUp img{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border-radius: 50px;
 }
 
 .testimonial .testiUp .testiUpCol{
     display: flex;
     flex-direction: column;
-    gap:3px;
-    
+    gap:1px;
+}
+
+.bg1{
+    background-color: #6B5B95;
+}
+
+.bg2{
+    background-color: #067ff3;
+}
+
+.bg3{
+    background:#af4a2e
 }
 
 .testimonial .testiUp .testiUpCol h2{
@@ -77,7 +86,7 @@
 .testimonial .testiUp .testiUpCol h1{
     font-size: 0.8rem;
     font-weight: bold;
-    color: #b6afaf;
+    color: #d6d3d3;
 }
 
 .testimonial .testiDown{
@@ -88,6 +97,11 @@
     text-align: left;
 }
 
+@media (max-width: 768px) {
+    .testimonial{
+        width:90%;
+    }
+}
 @media(min-width:250px) and (max-width: 1024px){
     #tCont{
         width: 100%;

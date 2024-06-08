@@ -71,11 +71,6 @@ export function About(){
                             natus ducimus velit quibusdam itaque, eveniet unde in incidunt distinctio, sunt animi dolores ipsum minima aliquam? Sapiente?
                         </p>
                 </div>
-                <div className='aboutItem' id="aboutItem9">
-                        <p>
-                           and many more ...
-                        </p>
-                </div>
         </section>
     )
 }
