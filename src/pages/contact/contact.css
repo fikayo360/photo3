@@ -11,14 +11,14 @@
 
 #contactCenter{
     display: flex;
-    width: 30%;
+    width: 40%;
     min-height: 500px;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
     padding: 25px;
     background-color:rgba(98, 54, 170, 0.089) ;
-    border-radius: 7%;
+    border-radius: 3%;
 }
 
 #contactCenter form{
@@ -28,7 +28,6 @@
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 2rem;
-    
 }
 
 
@@ -46,9 +45,9 @@
 #contactCenter form input,textarea{
     width:70%;
     font-size: 1.1rem;
-    padding: 15px;
+    padding: 10px;
     color: black;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #contactCenter form input,textarea::placeholder{
@@ -74,19 +73,24 @@
 
  @media(min-width:250px) and (max-width: 1024px){
     #contactCenter{
-        width: 80%;
+        width: 90%;
         min-height: 450px;
         gap: 2.5rem;
     }
 
+    #contactCenter form{
+        gap:0.3rem;
+    }
+
     #contactCenter form input,textarea{ 
-        width:80%;
-        font-size: 1.1rem;
+        width:90%;
+        font-size: 1rem;
         padding: 15px;
     }
 
     #contactCenter form button{
+        width:90%;
         height: 50px;
-        font-size: 1.1rem;
+        font-size: 1rem;
      }
 }

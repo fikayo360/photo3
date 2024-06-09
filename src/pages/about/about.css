@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    min-height: 100px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -29,6 +29,7 @@
     color: #ffffff;
     font-size: 1.4rem;
     margin-bottom: 2rem;
+    line-height: 0;
 }
 
 #aboutItem1,#aboutItem9{

@@ -1,17 +1,38 @@
 import './hero.css'
-import { useState } from 'react'
-import { useInView } from 'react-intersection-observer';
+import { useState,useRef } from 'react'
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { useInView } from "react-intersection-observer";
 
 export function Hero(){
     const [navActive,setNavActive] = useState(false)
-    const [ref, inView] = useInView();
     const toggleMobileNav = () => {
        setNavActive((prev) => !prev)
     }
+    gsap.registerPlugin(useGSAP);
+    const container = useRef();
+    const { ref, inView } = useInView({threshold:0.5});
+    useGSAP(() => {
+        gsap.from('#heroOther', {
+                duration: 2.5,
+                y: '-70vh',
+                ease: "bounce.out"
+        })
+        
+        }, { scope: container });
+
+        useGSAP(()=>{
+            gsap.from('.nmItems',{
+                duration: 1,
+                x: '-50%',
+                stagger: 0.1, 
+                ease: 'power3.inOut',
+            })
+        },[inView])
 
     return (
-        <section id="hero">
-           { navActive? (<div id='navMobile' onClick={toggleMobileNav} ref={ref} className={`${inView?'animate__animated animate__fadeInDown':''}`}>
+        <section id="hero" ref={container}>
+           { navActive? (<div id='navMobile' onClick={toggleMobileNav} ref={ref} >
                 <header>
                     <h1>Sydney</h1>
                     <img src='./close.png'/>
@@ -21,7 +42,8 @@ export function Hero(){
                             <li className='nmItems'><a href='#portfolio' >portfolio</a></li>
                             <li className='nmItems'><a href='#testimonials'>testimonials</a></li>   
                             <li className='nmItems'><a href='#about'>about</a></li>
-                            <li className='nmItems'><a href='#footer'>footer</a></li> 
+                            <li className='nmItems'><a href='#faq'>faqs</a></li> 
+                            
                 </ul>
             </div>) :null } 
 
@@ -32,7 +54,7 @@ export function Hero(){
                             <li><a href='#portfolio'>portfolio</a></li>
                             <li><a href='#testimonials'>testimonials</a></li>   
                             <li><a href='#about'>about</a></li>
-                            <li><a href='#footer'>footer</a></li>
+                            <li><a href='#faq'>faqs</a></li>
                         </ul>
 
                     <h1 id='navCenter'> Sydney james sterling </h1>

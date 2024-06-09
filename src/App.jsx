@@ -11,6 +11,7 @@ import { Footer } from './pages/footer/footer'
 import { useEffect } from 'react'
 import 'animate.css';
 import Extra1 from './pages/extra1/extra1'
+import { Faq } from './pages/Faq/Faq'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Portfolio />
       <Extra1 />
       <Testimonials />
+      <Faq />
       <Contact />  
       <Footer />
     </div>
