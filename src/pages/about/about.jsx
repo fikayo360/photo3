@@ -23,7 +23,7 @@ export function About(){
         <section id='about' ref={container}>
                 <div className='aboutItem' id="aboutItem1">
                         <p>
-                           we are ideal for any sort of event such as ...
+                           i am your ideal choice for services like ...
                         </p>
                 </div>
 
