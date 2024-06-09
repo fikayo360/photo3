@@ -1,8 +1,26 @@
 import './testimonials.css'
+import ScrollTrigger from 'gsap/src/ScrollTrigger';
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { useRef } from 'react';
 
 export function Testimonials(){
+    gsap.registerPlugin(useGSAP);
+    gsap.registerPlugin(ScrollTrigger)
+    const container = useRef();
+
+    useGSAP(() => {
+        gsap.from('.testimonial', {
+                scrollTrigger: '#testimonials', 
+                duration: 2,
+                delay:1,
+                y: '200%',
+                ease: "power2.out"
+        })
+        }, { scope: container });
+
     return(
-        <section id='testimonials'>
+        <section id='testimonials' ref={container}>
             <h2 id='head1'>Our happy clients </h2>
             <div id="tCont">
             <div className='testimonial bg1'>

@@ -185,6 +185,7 @@
         min-height: 100%;
         display: flex;
         align-items: center;
+        padding: 3px;
         z-index: 3;
         flex-direction: column;
         background-color: #2F1847;
@@ -225,6 +226,7 @@
 
     #heroOther{
         margin-top: 2rem;
+        padding: 1rem;
     }
 
 }
@@ -238,8 +240,8 @@
     }
 
     #navCenter{
-        font-size: 0.9rem;
-        line-height: 13px;
+        font-size: 1.2rem;
+        line-height: 0px;
     }
 
     #burger{
@@ -288,7 +290,7 @@
     }
 
     #navCenter{
-        font-size: 0.9rem;
+        font-size: 1.4rem;
         line-height: 14px;
     }
 
@@ -337,7 +339,7 @@
     }
 
     #navCenter{
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         line-height: 13px;
     }
 
@@ -386,7 +388,7 @@
     }
 
     #navCenter{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         line-height: 13px;
     }
 

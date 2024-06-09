@@ -57,7 +57,7 @@ export function Hero(){
                             <li><a href='#faq'>faqs</a></li>
                         </ul>
 
-                    <h1 id='navCenter'> Sydney james sterling </h1>
+                    <h1 id='navCenter'> Sydney</h1>
 
                     <div id='socialIcons'>
                         <div className='socialIcon'><img src='./facebook.png' /></div>

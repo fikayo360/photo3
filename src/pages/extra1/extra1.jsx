@@ -3,22 +3,25 @@ import ScrollTrigger from 'gsap/src/ScrollTrigger';
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from 'react';
+
 const Extra1 = () => {
     gsap.registerPlugin(useGSAP);
     gsap.registerPlugin(ScrollTrigger)
     const container = useRef();
 
     useGSAP(() => {
-        gsap.from('#e', {
+        gsap.from('.bt', {
                 scrollTrigger: '#extra', 
-                duration: 1.5,
+                duration: 1,
                 opacity:0,
+                delay:1,
                 ease: "power2.in"
         })
         }, { scope: container });
+
     return (
         <section id='extra' ref={container}>
-                <p id='e'>"If I could give Yulia and his photography business more than five stars,
+                <p id='e' className='bt'>"If I could give Yulia and his photography business more than five stars,
                      I would do it in a heartbeat! From start to finish, Yulia has been an absolute dream to work with, and his talent behind the lens is truly unparalleled.
 
                     From the moment we met Yulia, it was clear that he wasn't just
@@ -31,7 +34,7 @@ const Extra1 = () => {
                     But it's not just about the technical skill – Yulia has an incredible ability to make you feel comfortable and at
                     ease in front of the camera, capturing the most authentic and heartfelt moments that we will treasure for a lifetime.
                 </p>
-            <h1>Matt & ashley</h1>
+            <h1 className='bt'>Matt & ashley</h1>
         </section>
     )
 }

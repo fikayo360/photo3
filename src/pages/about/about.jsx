@@ -12,8 +12,9 @@ export function About(){
     useGSAP(() => {
         gsap.from('.aboutItem', {
                 scrollTrigger: '#about', 
-                duration: 2,
-                y: '200%',
+                duration: 3,
+                delay:1,
+                y: '100%',
                 ease: "power2.out"
         })
         }, { scope: container });
