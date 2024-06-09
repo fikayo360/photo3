@@ -75,6 +75,7 @@
         color: #ffffff;
         margin-bottom: 5px;
         font-size: 1.1rem;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -84,7 +85,7 @@
      }
      
      .aboutItem h1{
-         margin-bottom: 5px;
+         margin-bottom: 1.5rem;
          font-size: 1.1rem;
      }
 }
@@ -92,7 +93,7 @@
 
 @media (min-width: 481px) and (max-width: 768px){
     .aboutItem h1{
-        margin-bottom: 9px;
+        margin-bottom: 1.5rem;
         font-size: 1.15rem;
     }
     .aboutItem p{
