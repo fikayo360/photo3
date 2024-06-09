@@ -60,7 +60,7 @@
     .aboutItem{
         width: 90%;
         padding:2rem;
-        min-height: 50px;
+        min-height: 50px;  
         border-radius: 10px;
     }
 }
