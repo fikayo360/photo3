@@ -8,7 +8,7 @@ export const Faq = () => {
             <div id="faqWrap">
             <h2 id='faqH'>Faqs</h2>
             <div id='faqContainer'>
-                <Faqs h='Who are the designers?'
+                <Faqs h='Who are the photographers?'
                  p='Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                  Tenetur natus ipsam nisi quo magnam facere, perspiciatis in hic ea accusamus libero
                   totam provident tempore nihil vitae non laudantium atque! Iure.'
@@ -20,13 +20,13 @@ export const Faq = () => {
                   totam provident tempore nihil vitae non laudantium atque! Iure.'
                  />
 
-                <Faqs h='How much design work will I get?'
+                <Faqs h='How much work will I get?'
                  p='Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                  Tenetur natus ipsam nisi quo magnam facere, perspiciatis in hic ea accusamus libero
                   totam provident tempore nihil vitae non laudantium atque! Iure.'
                  />
 
-                <Faqs h='What if I dont like the design?'
+                <Faqs h='What if I dont like the work?'
                  p='Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                  Tenetur natus ipsam nisi quo magnam facere, perspiciatis in hic ea accusamus libero
                   totam provident tempore nihil vitae non laudantium atque! Iure.'

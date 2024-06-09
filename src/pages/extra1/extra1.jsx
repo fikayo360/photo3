@@ -1,5 +1,5 @@
 import './extra1.css'
-import ScrollTrigger from 'gsap/src/ScrollTrigger';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from 'react';
@@ -15,7 +15,7 @@ const Extra1 = () => {
                 duration: 1,
                 opacity:0,
                 delay:1,
-                ease: "power2.in"
+                ease: "power2.out"
         })
         }, { scope: container });
 

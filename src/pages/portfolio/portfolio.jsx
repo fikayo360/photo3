@@ -40,7 +40,25 @@ export function Portfolio(){
                     <img src='https://expertphotography.b-cdn.net/wp-content/uploads/2019/04/female-face-girl-with-wind-in-hair.jpg'/>
                 </div>
                 <div className='images'>
-                    <img src='https://images.squarespace-cdn.com/content/v1/56dfd5cc9f7266ed7f04b64d/1585743025040-GY3HNPD08I794TTR7O1M/image-asset.jpeg'/>
+                    <img src='https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/portrait-photography/CODERED_B1_portrait-photography_hero-img_900x420.jpg.img.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDSnjNgrPsBEbL2Vl53YXaF1gmT91FKbMLkQ&s'/>
+                </div>
+                <div className='images'>
+                    <img src='https://i.pinimg.com/564x/38/69/cd/3869cd79d2a548b720a2e5f38f6eed18.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://www.picsofasia.com/wp-content/uploads/2018/03/Top_intro-north-vietnam.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwcG9ydHJhaXR8ZW58MHx8MHx8fDA%3D'/>
+                </div>
+                <div className='images'>
+                    <img src='https://thumbs.dreamstime.com/b/one-young-man-looking-up-above-him-9869225.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://www.format.com/wp-content/uploads/alekzan-powell-5t5krHi1LQ8-unsplash.jpg'/>
                 </div>
                 </div>
             </div>
@@ -64,7 +82,19 @@ export function Portfolio(){
                     <img src='https://www.bellanaijaweddings.com/wp-content/uploads/2021/12/LooksbyTos-BellaNaija-Weddings-3-1080x1350.jpg'/>
                 </div>
                 <div className='images'>
-                    <img src='https://www.bellanaijaweddings.com/wp-content/uploads/2022/04/August-55-Civil-Wedding-Look8438602_2079141442264184_5959094649193075333_n.jpg'/>
+                    <img src='https://www.beamish-hall.co.uk/wp-content/uploads/2020/03/AS-452-300x300.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://cdn0.hitched.co.uk/vendor/4927/3_2/640/jpg/01_4_194927-167172494512956.jpeg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://www.fazackarley.com/wp-content/uploads/2018/04/005-brighton-lanes-wedding-fazackarley.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://www.fazackarley.com/wp-content/uploads/2018/04/004-brighton-registry-office-fazackarley.jpg'/>
+                </div>
+                <div className='images'>
+                    <img src='https://omastylebride.com/wp-content/uploads/2021/12/MrKielseventsphotography_traditiona-wedding_Igbobride_OmaStyle-Bride-Feature.jpeg'/>
                 </div>
             </div>
             </div>
